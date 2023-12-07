@@ -19,6 +19,7 @@ public class ConsoleIO {
         // %n = new line
 
         Scanner scan = new Scanner(System.in);
+        scan.useDelimiter("\n");
         System.out.printf("The value of pi is approximately %.2f%n", pi);
         System.out.println("Enter an integer: ");
         int userInput = scan.nextInt();
